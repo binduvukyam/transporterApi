@@ -34,6 +34,7 @@ public class TransporterController {
 
 	@GetMapping("/home")
 	public String home() {
+		log.info("Home Controller Started");
 		return "Welcome to transporterApi git action check 2...!!!";
 	}
 
